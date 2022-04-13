@@ -1,0 +1,105 @@
+body{
+    background-color: #181e2a;
+    color: #feffff;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #1c2230;
+}
+.nav-item a{
+    color: #feffff;
+    font-weight: lighter;
+    font-size: 20px;
+    
+}
+.nav-item a:active{
+    color: #feffff;
+}
+.nav-link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*Section*/
+section{
+    background-color: #1c2230; 
+}
+article{
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+article p{
+    font-size: 18px;
+}
+.btn{
+    background-color: #4dc2d3;
+    color: #feffff;
+}
+/*centro*/
+.centro{
+    background-color: #181e2a;
+    padding-bottom: 20px;
+}
+/*Stay productives*/
+.stay{
+    display: flex;
+    justify-content: space-around;
+}
+.stay a{
+    color: #feffff;
+    font-size: 20px;
+}
+.stay a:hover{
+    text-decoration: underline;
+}
+.tamanho{
+    width: 450px;
+}
+/*comentarios*/
+
+.card{
+    background-color: #21293c;
+    border-radius: 10px;
+}
+/*cardGet*/
+.penultimaCard{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    z-index: 2;
+    
+}
+.cardGet{
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    background-color: #1c2230;
+    text-align: center;
+}
+/*footer*/
+.logofooter{
+    display: inline;
+}
+footer{
+    background-color: #0c1524;
+    position: relative;
+    z-index: 1;    
+    height: 400px;
+}
+footer .px{
+    padding: 20px;
+    padding-top: 160px;
+}
+.link-footer{
+    display: flex;
+    flex-direction: column;
+}
+.link-footer a{
+    color: #feffff;
+    padding-bottom: 10px;
+}
+.link-footer a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
