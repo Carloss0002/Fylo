@@ -21,7 +21,7 @@ nav{
     text-decoration: underline;
 }
 /*Section*/
-section{
+div .all{
     background-color: #1c2230; 
 }
 article{
