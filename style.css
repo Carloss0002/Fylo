@@ -7,6 +7,9 @@ body{
 nav{
     background-color: #1c2230;
 }
+.span{
+    color: red;
+}
 .nav-item a{
     color: #feffff;
     font-weight: lighter;
@@ -102,4 +105,54 @@ footer .px{
 .link-footer a:hover{
     font-weight: bold;
     text-decoration: underline;
+}
+@media (max-width: 768px) { 
+    article img{
+        width: 50%;
+    }
+    .stay img{
+        width: 50%;
+    }
+   .sm{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .tamanho{
+       margin: 0 auto;
+       text-align: center;
+       width: 50%;
+   }
+   .stay{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .comentarios{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .formulario{
+       display: flex;
+       flex-direction: column;
+   }
+   .card{
+       margin-bottom: 10px;
+   }
+   footer{
+       height: 90%;
+   }
+   footer .px{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .paddingSm{
+       margin: 40px;
+   }
+   
 }
